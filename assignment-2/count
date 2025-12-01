@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# Script: count
+# Purpose: Print top 8 IP addresses by number of hits from logfile.txt
+
+awk '{print $1}' logfile.txt | sort | uniq -c | sort -nr | head -8 | awk '{print $2, $1}'
