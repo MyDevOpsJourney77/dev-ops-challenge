@@ -1,0 +1,12 @@
+# Ignore diagnostic output files
+diagnostics/
+diagnostics.tar.gz
+
+# Temp files
+*.tmp
+*.log
+*.bak
+
+# OS-generated files
+.DS_Store
+Thumbs.db
